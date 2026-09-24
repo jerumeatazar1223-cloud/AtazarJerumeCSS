@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Example</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 18px;
+            background-color: white;
+        }
+
+        /* Outer box */
+        .outer-box {
+            background-color: purple;
+            padding: 20px;
+            height: 370px;
+        }
+
+        /* Inner blue box */
+        .inner-box {
+            background-color: blue;
+            padding: 20px;
+            height: 330px;
+        }
+
+        /* Yellow text */
+        .yellow-text {
+            color: yellow;
+            font-size: 32px;
+            font-family: "Times New Roman", serif;
+            margin: 0 0 5px 0;
+        }
+
+        /* Red boxes */
+        .red-box {
+            background-color: red;
+            color: white;
+            font-size: 32px;
+            font-family: "Times New Roman", serif;
+            padding: 20px;
+            height: 82px;
+            margin-bottom: 40px;
+        }
+
+        .red-box:last-child {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="outer-box">
+
+        <div class="inner-box">
+
+            <p class="yellow-text">Yellow Text</p>
+
+            <div class="red-box">
+                White Text
+            </div>
+
+            <p class="yellow-text">Yellow Text</p>
+
+            <div class="red-box">
+                White Text
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Times New Roman", serif;
+}
+
+.container {
+    display: flex;
+    gap: 20%;
+   
+}
+
+section {
+    
+    min-height: 370px;
+}
+
+.cat {
+    background-color: #70e8cc;
+    height: 90%;
+}
+
+.cat img{
+    transform: rotate(270deg);
+   
+}
+
+.dog {
+    background-color: #ff7950;
+}
+
+h2 {
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+img {
+    
+    object-fit: cover;
+    float: left;
+    margin-right: 0;
+}
+
+p {
+    font-size: 30px;
+    line-height: 1.25;
+    margin: 10px 0;
+}
+
+footer {
+    clear: both;
+    background-color: #8c20df;
+    height: 20px;
+    text-align: center;
+    font-size: 14px;
+    
+}

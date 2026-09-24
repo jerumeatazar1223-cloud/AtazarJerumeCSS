@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 32px 10px;
+    font-family: "Times New Roman", serif;
+    color: black;
+}
+
+h1 {
+    margin: 0 0 32px 0;
+    color: #8a2be2;
+    font-size: 48px;
+}
+
+h2 {
+    margin: 0 0 28px 0;
+    color: #8a2be2;
+    font-size: 36px;
+}
+
+.today {
+    margin: 0 0 22px 0;
+    color: #c00000;
+    font-size: 24px;
+}
+
+ul {
+    margin-top: 0;
+    padding-left: 60px;
+    font-size: 24px;
+}
+
+li.wash {
+    color: blue;
+}
+
+li:nth-child(2),
+li:nth-child(3) {
+    color: green;
+}
+
+.other {
+    margin-left: 60px;
+    font-size: 14px;
+}
+
+.quote {
+    margin-top: 26px;
+    font-size: 24px;
+}

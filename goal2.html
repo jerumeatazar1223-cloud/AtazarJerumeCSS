@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>goal2</title>
+  <style>
+    body {
+      background-color: #ffffff;
+      font-family: Georgia, Times, 'Times New Roman', serif;
+      text-align: center;
+      padding: 40px 20px;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 48px;
+      font-weight: bold;
+      color: #000000;
+      margin-bottom: 25px;
+    }
+
+    h2 {
+      font-size: 32px;
+      font-weight: bold;
+      color: #000000;
+      margin-bottom: 35px;
+    }
+
+    ol {
+      display: inline-block;
+      text-align: center;
+      padding-left: 0;
+      list-style-position: inside;
+      font-size: 24px;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 12px;
+    }
+
+    
+    ol li:nth-child(1) {
+      color: #ff0000;
+    }
+
+    .class-selector {
+      color: #000000;
+    }
+
+    #id-selector {
+      color: #008000;
+    }
+
+    li[data-type="attribute"] {
+      color: #0000ff;
+    }
+
+    ol li:nth-child(5) {
+      color: #000000;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>CSS Selectors</h1>
+  <h2>Applying CSS to Different Parts of HTML</h2>
+
+  <ol>
+    <li>The element selector targets elements based on their HTML tag name.</li>
+    <li class="class-selector">Class selectors target elements based on the value of the class attribute.</li>
+    <li id="id-selector">ID selectors target elements based on the value of the id attribute.</li>
+    <li data-type="attribute">Attribute selectors target elements based on their attributes and values.</li>
+    <li>The universal selector targets all elements.</li>
+  </ol>
+
+</body>
+</html>

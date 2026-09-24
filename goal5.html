@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>goal5</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #ffffff;
+        }
+
+        
+        .container {
+            display: grid;
+            grid-template-columns: 200px 200px;
+            grid-template-rows: 200px 200px 200px;
+        }
+
+         Common box properties */
+        .box {
+            width: 200px;
+            height: 200px;
+        }
+
+        
+        .box-top {
+            grid-column: 1;
+            grid-row: 1;
+            background-color: #5d9b9b;
+            padding: 20px;
+            border: 10px solid #000000;
+            font-family: serif;
+            font-size: 11px;
+            line-height: 1.25;
+            color: #000000;
+            overflow: hidden;
+        }
+
+        
+        .box-middle {
+            grid-column: 2;
+            grid-row: 2;
+            background-color: #ffd000;
+            border-top: 20px solid #000000;
+            border-bottom: 20px solid #000000;
+            border-left: 10px solid #000000;
+            border-right: 10px solid #000000;
+        }
+
+        
+        .box-bottom {
+            grid-column: 1;
+            grid-row: 3;
+            background-color: #d35d5d;
+            border: 10px solid #000000;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box box-top">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at sapien porttitor urna elementum lacinia. In id magna pulvinar, ultricies lorem id, vehicula elit. Aliquam eu luctus nisl, vitae pellentesque magna. Phasellus dolor metus, laoreet ac convallis sit amet, efficitur sed dolor.
+        </div>
+        <div class="box box-middle"></div>
+        <div class="box box-bottom"></div>
+    </div>
+
+</body>
+</html>
